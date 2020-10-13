@@ -10,7 +10,7 @@ public class QuickSort {
     }
 
     public void quickSort(int[] arr,int q,int r){
-        if(q >= r){
+        if(q > r){
             return;
         }
 
@@ -23,23 +23,30 @@ public class QuickSort {
         int value = arr[q];
         int nl = q;
         int nr = r;
-        while(nl <= nr){
+        while(nl < nr){
 
             while(arr[nr] >= value && nl < nr){
                 nr -- ;
             }
-            arr[nl] = arr[nr] ;
+
 
 
             while(arr[nl] <= value && nl < nr){
                 nl++;
 
             }
-            arr[nr] = arr[nl];
+
+            if(nl < nr){
+                int tmp = arr[nl];
+                arr[nl] = arr[nr];
+                arr[nr] = tmp;
+            }
 
 
         }
-        arr[nr] = value;
-        return nr;
+        int p = arr[nl];
+        arr[nl] = arr[q];
+        arr[q] = p;
+        return nl;
     }
 }

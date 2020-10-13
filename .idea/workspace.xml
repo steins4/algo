@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d01d168d-54ca-4ca8-b5e4-e0679bc0a37a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/merge_quick/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/merge_quick/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/insert_bubble_select/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/insert_bubble_select/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/insert_bubble_select/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/insert_bubble_select/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/insert_bubble_select/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/merge_quick/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/merge_quick/QuickSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602507176162</updated>
       <workItem from="1602507178772" duration="3429000" />
-      <workItem from="1602551459611" duration="4486000" />
+      <workItem from="1602551459611" duration="5332000" />
     </task>
     <task id="LOCAL-00001" summary="merge  and  quick">
       <created>1602551666195</created>
