@@ -14,8 +14,5 @@ public class SelectSort {
             arr[i] = min;
             arr[k] = arr[i];
         }
-        for(int k:arr){
-            System.out.print(k+" ");
-        }
     }
 }

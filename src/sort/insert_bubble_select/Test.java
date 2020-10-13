@@ -1,5 +1,8 @@
 package sort.insert_bubble_select;
 
+import sort.merge_quick.MergeSort;
+import sort.merge_quick.QuickSort;
+
 import java.util.Random;
 
 public class Test {
@@ -23,5 +26,11 @@ public class Test {
 */
         //选择排序
         /*new SelectSort().selectSort(arr);*/
+
+        //快速排序
+        new QuickSort().quickSort(arr);
+
+        //归并排序
+        /*new MergeSort().mergeSort(arr);*/
     }
 }
