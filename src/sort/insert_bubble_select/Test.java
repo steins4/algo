@@ -22,6 +22,6 @@ public class Test {
         new BubbleSort().bubbleSort(arr);
 */
         //选择排序
-        new SelectSort().selectSort(arr);
+        /*new SelectSort().selectSort(arr);*/
     }
 }
